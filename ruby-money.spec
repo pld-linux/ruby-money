@@ -1,4 +1,5 @@
 Summary:	Library aiding in handling of money
+Summary(pl.UTF-8):	Biblioteka języka Ruby pomocna w obsłudze pieniędzy
 Name:		ruby-money
 Version:	1.7.1
 Release:	1
@@ -16,6 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Library aiding in handling of money.
+
+%description -l pl.UTF-8
+Biblioteka języka Ruby pomocna w obsłudze pieniędzy.
 
 %prep
 %setup -q -c
