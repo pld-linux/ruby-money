@@ -5,9 +5,9 @@ Version:	1.7.1
 Release:	1
 License:	Ruby's
 Group:		Development/Languages
-Source0:	http://rubyforge.vm.bytemark.co.uk/gems/money-1.7.1.gem
+Source0:	http://rubyforge.vm.bytemark.co.uk/gems/money-%{version}.gem
 # Source0-md5:	b42bbaf9bed7ef7ffe1ed792a2611921
-URL:		http://money.rubyforge.org
+URL:		http://money.rubyforge.org/
 BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	setup.rb = 3.3.1
