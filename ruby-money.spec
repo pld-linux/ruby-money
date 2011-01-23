@@ -10,7 +10,7 @@ Source0:	http://rubyforge.vm.bytemark.co.uk/gems/money-%{version}.gem
 URL:		http://money.rubyforge.org/
 BuildRequires:	ruby-rake
 BuildRequires:	rpmbuild(macros) >= 1.277
-BuildRequires:	setup.rb = 3.4.1
+BuildRequires:	setup.rb >= 3.4.1
 Requires:	ruby-builder
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
